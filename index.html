@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Shadows+Into+Light" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/estiloPropio.css">
+	<title>MielQRoo</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row justify-content-lg-between justify-content-center py-3 align-items-center">
+				<div class="col col-auto order-2 order-lg-1">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link active">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#seccionComerciantes" class="nav-link">Comerciantes</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-lg text-center col-auto order-1 order-lg-2">
+					<h1><a href="#" class="text-dark website-title">Miel Quintana Roo</a></h1>
+				</div>
+				<div class="col col-auto order-3">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#seccionPublicaciones" class="nav-link">Publicaciones</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Contacto</a>
+						</li>
+						<a class="btn btn-outline-primary" href="login.html">Ingresar</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Sección del carousel -->
+	<section class="carrusel">
+		<div class="container">
+			<section class="row main-carousel">
+				<div class="col">
+					<div id="carouselDestacado" class="carousel slide" data-ride="carousel" data-interval="5000">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselDestacado" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselDestacado" data-slide-to="1"></li>
+							<li data-target="#carouselDestacado" data-slide-to="2"></li>
+							<li data-target="#carouselDestacado" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active" >
+								<img src="img/carousel1.jpg" class="d-block w-100" alt="">
+							</div>
+							<div class="carousel-item" >
+								<img src="img/carousel2.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption text-white d-none d-md-block">
+									<h3>Apicultores Directos</h3>
+									<p>Los comerciantes son 100 % apicultores del Estado de Quintana Roo </p>
+								</div>
+							</div>
+							<div class="carousel-item" >
+								<img src="img/carousel3.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption text-white d-none d-md-block">
+									<h3>Producción Natural</h3>
+									<p>La miel es 100 % auténtica</p>
+								</div>
+							</div>
+							<div class="carousel-item" >
+								<img src="img/carousel4.jpg" class="d-block w-100" alt="">
+							</div>
+						<a href="#carouselDestacado" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" ></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a href="#carouselDestacado" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" ></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+	<!-- Sección de comerciantes -->
+	<section>
+		<div class="container">
+			<div class="row" >
+				<div class="col-12" id="seccionComerciantes">
+					Comerciantes
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="comerciantes">
+		<div class="container">
+			<div class="row " id="card-comerciantes"></div>
+		</div>
+	</section>
+
+	<!-- Sección de Publicaciones -->
+	<section class="publicaciones">
+		<div class="container">
+			<div class="row" >
+				<div class="col-12" id="seccionPublicaciones">
+					Publicaciones
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="publicaciones">
+		<div class="container">
+			<div class="row" id="card-publicaciones"></div>
+		</div>
+	</section>
+
+	<!-- //Pie de página -->
+	<footer class="bg-primary">
+		<div class="container">
+			<div class="row justify-content-md-between align-items-center py-3">
+				<div class="col-md-4 text-center text-md-left order-md-0 order-1 my-4 my-md-0">
+					<p class="text-white mb-0"><small>&copy; Todos los derechos reservados</small></p>
+				</div>
+				<div class="col-md-4">
+					<ul class="nav justify-content-center">
+						<li class="nav-item">
+							<a href="#" class="nav-link text-white">Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-white">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 text-md-right text-center order-2 order-md-0">
+					<a href="#" class="text-white mr-1">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="text-white mr-1">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="text-white mr-1">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="#" class="text-white">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Archivo script de comerciantes -->
+	<script src="js/comerciantes.js"></script>
+	<script src="js/publicaciones.js"></script>
+</body>
+</html>

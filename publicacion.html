@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Direccion</title>
+    <link rel="Stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <div id="id02">
+      <form name="publicacion" class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Agregar</h1>
+          <p>Por favor llene los campos para Agregar Publicación</p>
+          <hr>
+          <label for="nombre"><b>Nombre</b></label>
+          <input type="text" placeholder="Nombre del Comerciante" name="nombreComerciante" required>
+          
+          <label for="descripcion"><b>Descripcion</b></label>
+          <input type="text" placeholder="Descripción" name="Descripcion" required>
+
+          <label for="imagen"><b>Imagen</b></label>
+          <input type="text" placeholder="Imagen" name="img" required>
+
+          <label for="precio"><b>Precio</b></label>
+          <input type="text" placeholder="Precio de Venta" name="precioVenta" required>
+
+          <label for="fecha_registro"><b>Fecha de Registro</b></label>
+          <input type="text" placeholder="Fecha de Registro" name="fechaRegistro" required>
+
+          <label for="disponibilidad1"><b>Disponibilidad</b></label>
+          <input type="text" placeholder="Disponibilidad" name="disponibilidad" required>
+    
+          <div class="clearfix">
+            <button type="button" onclick="history.go(-1);" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Agregar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="js/newPublicacion.js"></script>
+</body>
+</html>

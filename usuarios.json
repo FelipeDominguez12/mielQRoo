@@ -1,0 +1,74 @@
+﻿
+[{
+        "id": "1",
+        "user": "Maca",
+        "password": "123",
+        "nombreComerciante": "Angel Alberto May Catzin",
+        "fotoPerfil": "img/comerciante1.jpg",
+        "descripcion": "Vendo miel , tengo 23 kilos de miel pura, contactar para más información",
+        "municipio": "Felipe Carrillo Puerto",
+        "localidad": "Andres Quintana Roo",
+        "telefono": "9831125674",
+        "correo": "a.a.m.cat@gmail.com"
+    },
+    {
+        "id": "2",
+        "user": "JoseLopez",
+        "password": "1234",
+        "nombreComerciante": "Jose Alejandro Lopez",
+        "fotoPerfil": "img/comerciante2.jpg",
+        "descripcion": "Soy apicultor de la comunidad de Limones, tengo disponible 50 kilos de miel a excelente precio. Contactame para más información",
+        "municipio": "Bacalar",
+        "localidad": "Limones",
+        "telefono": "9831127869",
+        "correo": "j.a.l@gmail.com"
+    },
+    {
+        "id": "3",
+        "user": "FelipeDoMi",
+        "password": "12345",
+        "nombreComerciante": "Felipe de Jesús Dominguez Hernandez",
+        "fotoPerfil": "img/comerciante3.jpg",
+        "descripcion": "Soy apicultor de la comunidad de Tusik, tengo disponible 10 kilos de miel a excelente precio. Contactame para más información",
+        "municipio": "Felipe Carrillo Puerto",
+        "localidad": "Tusik",
+        "telefono": "9831127854",
+        "correo": "f.jesus.dH@gmail.com"
+    }, 
+    { 
+        "id": "4",
+        "user": "CarlosPatEk",
+        "password": "123456",
+        "nombreComerciante": "Carlos Pat Ek",
+        "fotoPerfil": "img/comerciante4.jpg",
+        "descripcion": "Soy apicultor de la comunidad de Limones, tengo disponible 23 kilos de miel a excelente precio. Contactame para más información",
+        "municipio": "Bacalar",
+        "localidad": "Limones",
+        "telefono": "9831124569",
+        "correo": "c.p.e@gmail.com"
+    }, 
+    { 
+        "id": "5",
+        "user": "FedeLopez",
+        "password": "1234567",
+        "nombreComerciante": "Federico Alonso Tapía",
+        "fotoPerfil": "img/comerciante5.jpg",
+        "descripcion": "Soy apicultor de la comunidad de Noh-Bec, tengo disponible 50 kilos de miel a excelente precio. Contactame para más información",
+        "municipio": "Felipe Carrillo Puerto",
+        "localidad": "Noh-Bec",
+        "telefono": "9831113869",
+        "correo": "f.a.ta@gmail.com"
+    }, 
+    { 
+        "id": "6",
+        "user": "MAPECH",
+        "password": "1234567",
+        "nombreComerciante": "Maria Lopez Pech",
+        "fotoPerfil": "img/comerciante6.jpg",
+        "descripcion": "Soy apicultora de la comunidad de Limones, tengo disponible 50 kilos de miel a excelente precio. Contactame para más información",
+        "municipio": "Bacalar",
+        "localidad": "Maya Balam",
+        "telefono": "9832327869",
+        "correo": "m.l.pech@gmail.com"
+    } 
+ ]

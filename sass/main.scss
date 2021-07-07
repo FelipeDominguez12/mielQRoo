@@ -1,0 +1,35 @@
+$primary: #806a46;
+$info:#811a0a;
+$dar:#a1a1a1;
+$border-color: #eee;
+
+@import "../bootstrap/scss/bootstrap";
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.website-title{
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 50px;
+}
+
+a{
+    color: $secondary;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.nav-link{
+    &:hover{
+        color: $primary;
+    }
+    &.active{
+        color: $info
+    }
+}
+p{
+    &:last-child{
+        margin-bottom: 0;
+    }
+}

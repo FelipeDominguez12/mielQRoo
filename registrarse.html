@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar usuario</title>
+    <link rel="Stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    
+    <div id="id01" >
+      <form class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Registrarse</h1>
+          <p>Por favor llene los campos para Registrarse.</p>
+          <hr>
+          <label for="email"><b>Correo electrónico</b></label>
+          <input type="text" placeholder="Ingrese Correo Electrónico" name="email" required>
+            
+          <label for="nombre"><b>Nombre</b></label>
+          <input type="text" placeholder="Ingrese Nombre" name="nombre" required>
+          
+          <label for="apellido"><b>Apellido</b></label>
+          <input type="text" placeholder="Ingrese Apellido" name="apellido" required>
+
+          <label for="municipio"><b>Municipio</b></label>
+          <input type="text" placeholder="Ingrese Municipio" name="municipio" required>
+
+          <label for="localidad"><b>Localidad</b></label>
+          <input type="text" placeholder="Ingrese Localidad" name="localidad" required>
+
+          <label for="numero"><b>Número teléfono</b></label>
+          <input type="text" placeholder="Ingrese número de teléfono" name="telefono" required>
+
+          <label for="usuario"><b>Nombre de usuario</b></label>
+          <input type="text" placeholder="Ingrese nombre de usuario" name="usuario" required>
+
+          <label for="psw"><b>Contraseña</b></label>
+          <input type="password" placeholder="Ingrese Contraseña" name="psw" required>
+    
+          <label for="psw-repeat"><b>Repita la contraseña</b></label>
+          <input type="password" placeholder="Repita la contraseña" name="psw-repeat" required>
+          
+          <!--<label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recuérdame
+          </label>-->
+    
+          <!--<p>Al crear una cuenta usted esta de acuerdo con los <a href="#" style="color:dodgerblue">Terminos y Condiciones</a>.</p>
+          -->
+          <div class="clearfix">
+            <button type="button" onclick="history.go(-1);" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn"  onclick="crearCuenta(this.form);" >Registrar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      //Esta funcion agrega usuario al sistema
+      function crearCuenta(form) {
+          psw = form.elements["psw"].value;
+          pswRepeat = form.elements["psw-repeat"].value;
+
+          if(psw == pswRepeat && 
+            form.elements["psw"].value != "" && 
+            form.elements["email"].value != "" &&
+            form.elements["nombre"].value != "" &&
+            form.elements["apellido"].value != "" &&
+            form.elements["municipio"].value != "" &&
+            form.elements["localidad"].value != "" &&
+            form.elements["telefono"].value != "" &&
+            form.elements["usuario"].value != ""
+            ){
+            console.log("contraseñas iguales");
+            correo = form.elements["email"].value;
+            nombre = form.elements["nombre"].value;
+            apellido = form.elements["apellido"].value;
+            municipio = form.elements["municipio"].value;
+            localidad = form.elements["localidad"].value;
+            telefono = form.elements["telefono"].value;
+            usuario = form.elements["usuario"].value;
+            alert("done");
+          }else if(psw != pswRepeat){
+            alert("Las constraseñas no coinsiden");
+          }
+          
+      }
+  </script>
+</body>
+</html>
